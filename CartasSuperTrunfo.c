@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (){
-}
+
 char estado;
 char codigo [40];
 char cidade [50];
@@ -15,14 +15,14 @@ scanf (" %c", &estado);
 printf("codigo da carta (ex: A01):");
 scanf("%s", codigo);
 printf("Nome da cidade: ");
-scanf(" %[^\n]", Cidade);
-printf(Populçaõ: ");
+scanf(" %[^\n]", cidade);
+printf("Populçaõ: ");
 scanf ("%d", &populaçao);
 printf("area (km2): ");
 scanf ("%f", &area);
 printf("pib: ");
 scanf ("%f", &pib);
-print ("numeros de pontos turisticos: ");
+printf ("numeros de pontos turisticos: ");
 scanf("%d", &pontos);
 
 
